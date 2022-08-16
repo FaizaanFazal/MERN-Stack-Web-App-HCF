@@ -1,0 +1,26 @@
+/* .fixed {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 100%;
+    width: 100%;
+    color: #eeeeee;
+    text-align: center;
+    z-index: -1;
+  }
+  .wrapper{ 
+      height: 100%;
+    
+    word-spacing: 2px;
+    letter-spacing: 0.5px;}
+  .one{
+    background-image: url('../../images/bg.webp');
+    z-index: 2;
+  }
+@media screen and (max-width: 768px) {
+ .fixed{
+    background-position: right top;
+ }
+    
+  } */

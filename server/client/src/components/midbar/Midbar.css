@@ -1,0 +1,74 @@
+.Midbar{
+    background-color: rgb(21, 21, 51);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.cont{
+    background-color: rgb(21, 21, 51);
+    text-align: center;
+    letter-spacing: 6px;
+    color: white;
+    padding: 10px;
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .w3{
+    border-bottom:3px solid white;
+    margin: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+  }
+  h4{
+    margin-top: 10px;
+  }
+ .midbarbox{
+    position: relative;
+    width: 170px;
+    height: 170px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    overflow: hidden;
+    
+
+ }
+ .midbarbox::before{
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 180px;
+    background: linear-gradient(#00ccff,#d400d4);
+    animation: animate 1s linear infinite;
+
+}
+.midbarbox::after{
+    content: "";
+    position: absolute;
+    background: #0e1538;
+    border-radius: 50%;
+    inset: 5px;
+}
+.midbarbox h2{
+    position: relative;
+    z-index: 10;
+    color: white;
+    font-size: 28px;
+    word-wrap: break-word;
+}
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

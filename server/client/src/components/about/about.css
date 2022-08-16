@@ -1,0 +1,261 @@
+.about{
+  background-image: url('../../images/hcfb2.webp');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+  width: 100%;
+  
+  min-height: 100vh;
+  color: #ffffff;
+  text-align: left;
+  overflow: hidden;
+  
+}
+.cover{
+  padding: 0px 0px 30px 0px;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+/* .circlebk{
+  position:absolute;
+  width:800px;
+  height: 800px;
+  background-color: rgba(0, 18, 218, 0);
+  border-radius: 1000%;
+  z-index: 0;
+  bottom: -400px;
+  left: -400px;
+} */
+.title{
+  background-color: rgb(5, 197, 204);
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: 6px;
+  color: rgb(21, 21, 52);
+  
+}
+.title h3{
+  display: grid;
+  place-items: center;
+  padding: 7px;
+}
+
+.flex{
+  display: flex;
+
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  height: 90%;
+}
+.leftpanel{
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  z-index: 2;
+  min-height: auto;
+  margin: 10px;
+  border-left: 10px solid white;
+  padding: 5px;
+   
+  /* box-shadow: 0px 0px 19px 4px rgba(0,0,0,1) inset;
+-webkit-box-shadow: 0px 0px 19px 4px rgba(0,0,0,1) inset;
+-moz-box-shadow: 0px 0px 19px 4px rgba(0,0,0,1) inset; */
+
+}
+h2{
+  padding: 0px 5px 5px 5px;
+  color: rgb(255, 255, 255);
+
+}
+.sub-cont{
+  display: flex;
+  flex-direction: column;
+}
+.leftpanel .img{
+  width: 100%;
+  padding: 10px;
+}
+.img img{
+  width: 100%;
+  max-width: 300px;
+  min-width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+  border-left: 10px solid rgb(33, 216, 216);
+  border-bottom: 10px solid rgb(5, 163, 163);
+}
+hr.hline{
+  width: 90% !important;
+  border: 1px solid rgb(5, 163, 163) !important;
+  opacity: 1 !important;
+  border-radius: 5px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.msg{
+  text-indent: 30px;
+  font-family: cursive;
+  font-size: 18px;
+  text-justify: distribute;
+}
+.msg::first-letter{
+  font-size: 36px;
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif
+  
+}
+.rightpanel{
+width: 70%;
+margin: 10px;
+padding: 0px 5px 5px 5px;
+
+height: auto;
+border-left: 10px solid white;
+z-index: 2;
+}
+h2{
+  padding-top: 0px;
+  
+}
+.aboutcard{
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  width: 90%;
+  min-height: 250px;
+  padding: 5px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+.cardleft{
+  width:50%;
+  min-width: 340px;
+  position: relative;
+  min-height: 250px;
+}
+
+.carddate{
+  font-size: 50px;
+  position: absolute;
+  bottom: 0;
+  margin: 4px;
+  margin-left: 20px;
+  color: rgb(88, 88, 88);
+}
+.cardbtn{
+  position: absolute;
+  bottom: 0;
+  transform: translateY(50%);
+  right: 20px;
+}
+.cbtn{
+ background-color: rgb(41, 44, 41);
+ color: rgb(11, 212, 212);
+ font-weight: bold;
+ padding: 7px 15px 7px 15px;
+ border: 1px solid rgb(11, 212, 212);
+}
+.cardimg{
+  transform: translateY(-30px);
+  margin: 10px 10px 0px 10px;
+  max-width: 300px;
+  max-height: 200px; 
+  color: black;
+  display: flex;
+  overflow: hidden;
+  
+}
+.cardimg img{
+  border: 1px solid gray;
+ background-color: aqua;
+ max-width: 100%;
+    max-height: 100%;
+
+ /* position: absolute; */
+ /* top: -20px;
+ left: 20px;
+ right: 20px; */
+
+ -webkit-box-shadow: 5px 5px 93px 0px rgba(0,0,0,0.75);  
+	-moz-box-shadow: 5px 5px 93px 0px rgba(0,0,0,0.75);  
+	box-shadow: 5px 5px 93px 0px rgba(0,0,0,0.75);  
+}
+.cardright{
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative;
+  padding-bottom: 30px;
+width: 48%;
+}
+.eventName{
+  font-family: sans-serif;
+  font-weight: bolder;
+  color: black;
+  font-size: 28px;
+}
+.location{
+  color: rgb(87, 87, 87);
+  
+}
+.location span{
+  color: rgb(37, 158, 1);
+  font-weight: bolder;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .flex{ width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+ 
+}
+@media screen and (max-width: 980px) {
+  .aboutcard{
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 850px) {
+  .flex{
+    flex-direction: column;
+  }
+  .leftpanel{
+    width: 100%;
+    
+  }
+  .rightpanel{
+    width: 100%;
+  }
+  .sub-cont{
+    display: flex;
+    flex-direction: row;
+  }
+  .aboutcard{
+    flex-direction: row;
+  }
+}
+@media screen and (max-width: 625px) {
+  .aboutcard{
+    flex-direction: column;   
+    margin-top: 50px; 
+  }
+  .cardright{
+width: 98%;
+}
+
+}
+@media screen and (max-width: 525px) {
+  .sub-cont{
+    flex-direction: column;
+    
+  }
+}

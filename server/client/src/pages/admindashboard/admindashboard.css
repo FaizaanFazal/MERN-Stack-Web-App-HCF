@@ -1,0 +1,13 @@
+.bgcolor{
+    background-color: rgb(21, 21, 52);
+    color:white;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+@media screen and (min-width:575px) {
+ .btnm-3{
+    margin-top:25px;
+ }   
+}
